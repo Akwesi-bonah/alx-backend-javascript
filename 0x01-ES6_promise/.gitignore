@@ -3,5 +3,5 @@ node_modules
 babel.config.js
 package-lock.json
 package.json
-alx-backend-javascript/0x00-ES6_basic/*main.js
+alx-backend-javascript/0x00-ES6_promise/*main.js
 
