@@ -1,4 +1,3 @@
-
 /**
  * Handles the signup process and profile creation for a user.
  * @param {string} firstName - The first name of the user.
