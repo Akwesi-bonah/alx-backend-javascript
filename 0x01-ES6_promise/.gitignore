@@ -1,11 +1,7 @@
 node_modules
-alx-backend-javascript/0x00-ES6_basic/node_modules
-alx-backend-javascript/0x00-ES6_basic/node_modules/0-main.js
-alx-backend-javascript/0x00-ES6_basic/node_modules/1-main.js
-alx-backend-javascript/0x00-ES6_basic/node_modules/2-main.js
-alx-backend-javascript/0x00-ES6_basic/node_modules/3-main.js
-alx-backend-javascript/0x00-ES6_basic/node_modules/4-main.js
-alx-backend-javascript/0x00-ES6_basic/node_modules/5-main.js
-alx-backend-javascript/0x00-ES6_basic/node_modules/6-main.js
-alx-backend-javascript/0x00-ES6_basic/node_modules/7-main.js
-alx-backend-javascript/0x00-ES6_basic/node_modules/8-main.js
+.eslintrc.js
+babel.config.js
+package-lock.json
+package.json
+alx-backend-javascript/0x00-ES6_basic/*main.js
+
