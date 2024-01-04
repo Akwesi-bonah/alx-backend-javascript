@@ -1,4 +1,4 @@
-import getBudgetObject from "./7-getBudgetObject.js";
+import getBudgetObject from './7-getBudgetObject';
 
 /**
  * Returns a full budget object based on the given income, GDP, and capita.

@@ -1,4 +1,4 @@
-import { uploadPhoto, createUser } from "./utils";
+import { uploadPhoto, createUser } from './utils';
 
 /**
  * Asynchronously uploads a photo and creates a user.

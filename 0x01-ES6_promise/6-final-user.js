@@ -3,7 +3,8 @@
  * @param {string} firstName - The first name of the user.
  * @param {string} lastName - The last name of the user.
  * @param {string} fileName - The name of the file to upload as the user's photo.
- * @returns {Promise<Array<{status: string, value: any}>>} - A promise that resolves to an array of objects containing the status and value of each operation.
+ * @returns {Promise<Array<{status: string, value: any}>>} - A promise that resolves to an array
+ * of objects containing the status and value of each operation.
  */
 import signUpUser from "./4-user-promise";
 import uploadPhoto from "./5-photo-reject";

@@ -1,5 +1,10 @@
 import { uploadPhoto, createUser } from "./utils.js";
 
+/**
+ * Handles the signup process for a user's profile.
+ * @returns {Promise} A promise that resolves when both the photo upload 
+ * and user creation are completed.
+ */
 export default function handleProfileSignup() {
   return Promise.all([uploadPhoto(), createUser()])
     .then((result) => {
