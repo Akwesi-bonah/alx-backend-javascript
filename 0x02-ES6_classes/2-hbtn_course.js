@@ -11,19 +11,18 @@ export default class HolbertonCourse {
    * @param {string[]} students - The list of students enrolled in the course.
    */
   constructor(name, length, students) {
-
-    if (typeof name !== "string") {
-      throw TypeError("Name must be a string");
+    if (typeof name !== 'string') {
+      throw TypeError('Name must be a string');
     }
 
-    if (typeof length !== "number") {
-      throw TypeError("Length must be a number");
+    if (typeof length !== 'number') {
+      throw TypeError('Length must be a number');
     }
 
     if (!Array.isArray(students)) {
-      throw TypeError("Students must be an array");
+      throw TypeError('Students must be an array');
     }
-    
+
     this._name = name;
     this._length = length;
     this._students = students;
