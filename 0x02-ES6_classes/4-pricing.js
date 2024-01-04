@@ -1,5 +1,3 @@
-import Currency from './3-currency';
-
 /**
  * Represents a pricing object.
  */
