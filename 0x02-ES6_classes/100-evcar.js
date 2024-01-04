@@ -11,7 +11,7 @@ export default class EVCar extends Car {
      * @param {string} motor - The type of motor used in the car.
      * @param {string} color - The color of the car.
      * @param {number} range - The range of the car in miles.
-     */
+    git  */
     constructor(brand, motor, color, range) {
         super(brand, motor, color);
         this._range = range;
