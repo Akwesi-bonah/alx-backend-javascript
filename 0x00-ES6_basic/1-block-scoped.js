@@ -1,4 +1,3 @@
-
 /**
  * A function that returns an array containing the values of two variables.
  * The values of the variables depend on the value of the parameter `trueOrFalse`.
@@ -11,8 +10,8 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    let task = true;
-    let task2 = false;
+    const task = true;
+    const task2 = false;
   }
 
   return [task, task2];
