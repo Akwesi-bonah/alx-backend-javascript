@@ -1,8 +1,7 @@
 /**
  * Executes a math function and returns the result or an error message.
  * @param {Function} mathFunction - The math function to be executed.
- * @returns {Array} - An array containing the result or error message 
- * and a final message indicating that the guardrail was processed.
+ * @returns {Array}-An array containing the results processed.
  */
 
 export default function guardrail(mathFunction) {
