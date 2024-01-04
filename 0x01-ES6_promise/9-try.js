@@ -3,7 +3,6 @@
  * @param {Function} mathFunction - The math function to be executed.
  * @returns {Array}-An array containing the results processed.
  */
-
 export default function guardrail(mathFunction) {
   const queue = [];
   try {
