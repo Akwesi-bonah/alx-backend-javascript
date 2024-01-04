@@ -1,5 +1,5 @@
 import Car from './10-car';
-
+/* eslint-disable class-methods-use-this */
 /**
  * Represents an Electric Vehicle Car.
  * @extends Car
