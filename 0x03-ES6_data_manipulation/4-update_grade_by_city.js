@@ -1,7 +1,7 @@
 export default function updateStudentGradeByCity(
   getListStudents,
   city,
-  newGrades
+  newGrades,
 ) {
   if (Array.isArray(getListStudents)) {
     const students = getListStudents.filter((item) => item.location === city);
@@ -11,9 +11,8 @@ export default function updateStudentGradeByCity(
         const grade = newGrades.find((grade) => grade.studentId === item.id);
         if (grade) {
           return { ...item, grade: grade.grade };
-        } else {
-          return { ...item, grade: "N/A" };
         }
+        return { ...item, grade: 'N/A' };
       }
       return item;
     });

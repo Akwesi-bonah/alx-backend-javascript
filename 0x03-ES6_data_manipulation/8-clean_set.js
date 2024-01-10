@@ -1,6 +1,6 @@
 export default function cleanSet(set, startString) {
   if (!startString || !startString.length) {
-    return "";
+    return '';
   }
   const result = [];
   set.forEach((value) => {
@@ -8,5 +8,5 @@ export default function cleanSet(set, startString) {
       result.push(value.slice(startString.length));
     }
   });
-  return result.join("-");
+  return result.join('-');
 }
