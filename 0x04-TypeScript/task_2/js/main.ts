@@ -66,4 +66,3 @@ const executeWork = (employee: Teacher | Director): string => {
 console.log(executeWork(createEmployee(200)));
 
 console.log(executeWork(createEmployee(1000)));
-
