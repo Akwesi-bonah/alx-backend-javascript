@@ -36,6 +36,7 @@ var createEmployee = function (salary) {
 console.log(createEmployee(200));
 console.log(createEmployee(1000));
 console.log(createEmployee("$500"));
+// task 6. Creating functions specific to employees
 var isDirector = function (employee) {
     return employee instanceof Director;
 };
@@ -47,5 +48,17 @@ var executeWork = function (employee) {
         return employee.workTeacherTasks();
     }
 };
+// test
 console.log(executeWork(createEmployee(200)));
 console.log(executeWork(createEmployee(1000)));
+var teachClass = function (todayClass) {
+    if (todayClass === 'Math') {
+        return 'Teaching Math';
+    }
+    else {
+        return 'Teaching history';
+    }
+};
+// test 
+console.log(teachClass('Math'));
+console.log(teachClass('History'));

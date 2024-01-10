@@ -51,6 +51,8 @@ console.log(createEmployee(200));
 console.log(createEmployee(1000));
 console.log(createEmployee("$500"));
 
+
+// task 6. Creating functions specific to employees
 const isDirector = (employee: Teacher | Director): employee is Director => {
   return employee instanceof Director;
 };
@@ -63,6 +65,27 @@ const executeWork = (employee: Teacher | Director): string => {
   }
 };
 
+// test
 console.log(executeWork(createEmployee(200)));
-
 console.log(executeWork(createEmployee(1000)));
+
+
+// 7. String literal types
+
+type Subjects = 'Math' | 'History';
+
+
+const teachClass = (todayClass: Subjects) =>
+{
+  if (todayClass === 'Math'){
+    return 'Teaching Math'
+  }
+  else
+  {
+    return 'Teaching history'
+  }
+}
+
+// test 
+console.log(teachClass('Math'))
+console.log(teachClass('History'))
