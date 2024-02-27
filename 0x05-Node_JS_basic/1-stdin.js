@@ -2,7 +2,6 @@ const welcome = 'Welcome to Holberton School, what is your name?';
 const response = 'Your name is: ';
 const endNote = 'This important software is now closing';
 
-
 process.stdout.write(`${welcome}\n`);
 process.stdin.on('readable', () => {
   const name = process.stdin.read();
