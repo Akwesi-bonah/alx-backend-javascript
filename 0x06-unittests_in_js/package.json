@@ -1,17 +1,27 @@
 {
-  "name": "test",
+  "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "unitest in javascripts",
-  "main": "0-calcul.js",
+  "description": "Unitest in javascript",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha '*.test.js' --exit"
+    "test": "mocha "
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Akwesi-bonah/alx-backend-javascript.git"
+  },
+  "author": "Akwesi-bonah <arhinbonnah@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akwesi-bonah/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/Akwesi-bonah/alx-backend-javascript#readme",
   "devDependencies": {
     "assert": "^2.1.0",
     "chai": "^5.1.0",
-    "mocha": "^10.3.0",
+    "mocha": "^10.3.0"
+  },
+  "dependencies": {
     "sinon": "^17.0.1"
   }
 }
