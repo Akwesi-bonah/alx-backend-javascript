@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/extensions
-import AppController from '../controllers/Appcontroller';
+import AppController from '../controllers/AppController';
 import StudentsController from '../controllers/StudentsController';
 
 const linkRoutes = (app) => {
