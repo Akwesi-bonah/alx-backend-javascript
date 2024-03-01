@@ -1,5 +1,5 @@
-const { expect } =  import("chai");
 const calculateNumber = require("./2-calcul_chai");
+const { expect } = require('chai');
 
 describe("Test function calculateNumber", () => {
   describe("When type is SUM", () => {
@@ -37,13 +37,13 @@ describe("Test function calculateNumber", () => {
       expect(calculateNumber("DIVIDE", 2, 4)).to.equal(0.5);
     });
     it("calculate the divide of two float numbers", () => {
-      expect(calculateNumber("DIVIDE", 2.7, 4)).to.equal(0.675);
+      expect(calculateNumber("DIVIDE", 2.7, 4)).to.equal(0.75);
     });
     it("calculate the divide of two negative numbers", () => {
       expect(calculateNumber("DIVIDE", -2, -4)).to.equal(0.5);
     });
     it("calculate the divide of two negative float numbers", () => {
-      expect(calculateNumber("DIVIDE", -2.7, -4)).to.equal(0.675);
+      expect(calculateNumber("DIVIDE", -2.7, -4)).to.equal(0.75);
     });
     it("calculate the divide of a number by 0", () => {
       expect(calculateNumber("DIVIDE", 2, 0)).to.equal("Error"); 
